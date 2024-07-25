@@ -1,8 +1,8 @@
 package User;
 
 public class Student extends User {
-    String matric_no = "bhu/22/04/05/0102";
-    String admission_no = "302245652237";
+    String matric_no = "bhu/22/04/05/0090";
+    String admission_no = "158234908201";
     String registerCourse() {
         if (matric_no.equals("") || admission_no.equals("")) {
             return "You cannot register at this moment";
@@ -19,8 +19,8 @@ public class Student extends User {
     }
     public static void main(String[] args) {
         Student student = new Student();
-        student.name = "Onuma Gabriel";
-        student.password = "gabriel2004";
+        student.name = "Kanto Joshua";
+        student.password = "Nansel001";
         System.out.println(student.register());
         System.out.println(student.registerCourse());
         System.out.println(student.checkResults());
